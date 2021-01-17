@@ -14,3 +14,5 @@ fields:
 - type: text
   name: title
   label: title
+pages:
+- locations/port-elgin.md
