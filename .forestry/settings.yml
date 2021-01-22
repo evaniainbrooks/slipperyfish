@@ -5,9 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: info
+  path: data/info.md
   label: info
-  match: "**/*"
 - type: directory
   path: locations
   label: Locations
