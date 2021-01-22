@@ -20,6 +20,11 @@ export default function Header(props) {
           "close" : "info"}`}</h1>
           </Link>
         </div>
+        <div>
+          <Link href={`${"/location"}`}>
+            <h1>Locations</h1>
+          </Link>
+        </div>
       </nav>
       <style jsx>
         {`
