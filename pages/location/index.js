@@ -19,7 +19,7 @@ const Index = props => {
 export default Index
 
 export async function getStaticProps() {
-  const siteConfig = await import(`../data/config.json`)
+  const siteConfig = await import(`../../data/config.json`)
   //get locations & context from folder
   const locations = (context => {
     const keys = context.keys()
